@@ -20,14 +20,17 @@ convertBtn.addEventListener("click", function () {
 
   lengthSection.innerHTML = `
     <h2>Length (Meter/Feet)</h2>
-    <p> ${unitValue} meters = ${lengthFeet} feet | ${unitValue} feet = ${lengthMeter} meters </p>
+    <p> ${unitValue} meters = ${lengthFeet} feet |
+     ${unitValue} feet = ${lengthMeter} meters </p>
     `;
   volumeSection.innerHTML = `
     <h2>Volume (Liters/Gallons)</h2>
-    <p> ${unitValue} liters = ${volumeGallon} gallons | ${unitValue} gallons = ${volumeLiter} liters </p>
+    <p> ${unitValue} liters = ${volumeGallon} gallons |
+     ${unitValue} gallons = ${volumeLiter} liters </p>
     `;
   massSection.innerHTML = `
-    <h2>Mass (Kilogreams/Pounds)</h2>
-    <p> ${unitValue} kilos = ${massPounds} pounds | ${unitValue} pounds = ${massKg} kilos </p>
+    <h2>Mass (Kilograms/Pounds)</h2>
+    <p> ${unitValue} kilos = ${massPounds} pounds |
+     ${unitValue} pounds = ${massKg} kilos </p>
     `;
 });
