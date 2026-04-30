@@ -50,7 +50,9 @@ body {
 }
 
 .unit-section {
+  box-sizing: border-box;
   border-radius: 5px;
   min-width: 98%;
   background: #ffffff;
+  font-weight: bold;
 }
